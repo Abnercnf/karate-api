@@ -1,0 +1,916 @@
+20:52:21.818 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:52:22.815 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:23.303 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:52:23.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 396
+1 < 200
+1 < Date: Sun, 18 Sep 2022 23:52:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1651090706
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 8181
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zJ65Y%2FDvmGa%2BNo%2FcZfNj9%2BGakqZ1dEN9b805nTppc2Nvx2Lxaa4%2FK4lqNv%2BbtQ15QcilIkMEEpQUz3risNnS9sS4uSG0Ry6vyoT5WL8H0OJjIlqX7XRjgWnC8I3uVWM8rcZEKr2EfhDH18E3UJfJ"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74cdfeb82a6aa49f-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+20:52:23.742 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+2 > Accept-Encoding: gzip,deflate
+
+
+20:52:23.867 [main] DEBUG com.intuit.karate - response time in milliseconds: 124
+2 < 200
+2 < Date: Sun, 18 Sep 2022 23:52:23 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1663502476
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 13866
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tHWPwNOA46kJQmhXpbuyAJH77jw6meghm3BapawXzNUKiLcR8rkAfXkgzOxKz6SRjLdfrdbk3OWSD3sTcIktoDOt9UQ2c%2BO0hU4BofWGeOeumu0iIDsgx%2FKRNAvrRlyYXdTZdg5KgiVik%2BZ8gXuc"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 74cdfeb94e91a63a-GRU
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+20:52:23.881 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:23.949 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+20:52:24.457 [main] DEBUG com.intuit.karate - response time in milliseconds: 508
+1 < 201
+1 < Date: Sun, 18 Sep 2022 23:52:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1663545201
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CBaIIU0S32dEndd4QOmjVQubsih%2BEYCaaP0YT56jArE84OVwFx5XhUDKuFEuS2abr%2Fy0w6RQCJ25fGI5XHNtTkSSqTCielMGv1%2BHG5hLvfKV7272Y29dIncwJUWZiJxo1H5zgDH1LYE2aBMJ5wq6"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74cdfebc7ba93b94-BOS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+20:52:24.460 [main] INFO  com.intuit.karate - [print] created id is:  11 
+20:52:43.807 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:52:43.813 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1663545163811
+20:52:43.838 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^get all users and then get the first user by id$
+20:52:44.532 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:45.044 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:52:45.806 [main] DEBUG com.intuit.karate - response time in milliseconds: 715
+1 < 200
+1 < Date: Sun, 18 Sep 2022 23:52:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1658404427
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 2214
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UjWijX4QN9Hft7WH0j8YQ3DrhgBDHIxMmOfrEYUjxVmOC6YNsvDXwdn%2BBVc03tZk3N9YeJ%2BtLKJtqgQuzKB02eiy56Rh85MxcJPaphHXivBq603ZhERPzohPsGYUMh9FApxfLPtXyK6ZPzbd2iNY"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74cdff41de643b99-BOS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+20:52:45.824 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+2 > Accept-Encoding: gzip,deflate
+
+
+20:52:45.915 [main] DEBUG com.intuit.karate - response time in milliseconds: 91
+2 < 200
+2 < Date: Sun, 18 Sep 2022 23:52:45 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1663509620
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 6359
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FEGPLLqzp1fS3QCJBiDwLLmtm2XlMB5GwDj%2FSXS6PxQZyVBeOtF1iXqJwsjEwHgtvqyiOrSTOxvdg6TfwNN4%2FMcHDtubdW4jQ9xxNoj3jbHQwY%2BuEAvCyLgoQsowZqlhpK77mY1ZzioEVlbeOilm"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 74cdff432c4aa4e3-GRU
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+20:52:46.418 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+23:19:28.830 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:19:28.836 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1663553968835
+23:19:28.869 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Criar Pet$
+23:19:29.537 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:19:29.571 [main] ERROR com.intuit.karate - src/test/java/petstore/pet/create_pet.feature:5
+* def body_request = read('./data/body_request.json')
+>>>> js failed:
+01: read('./data/body_request.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Tests\karate-dsl\karatedsl\src\test\java\petstore\pet\.\data\body_request.json (O sistema não pode encontrar o arquivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:53)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/petstore/pet/create_pet.feature:5
+23:19:30.017 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/petstore/pet/create_pet.feature
+23:20:27.453 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:20:27.456 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1663554027456
+23:20:27.477 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Criar Pet$
+23:20:28.112 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:20:28.149 [main] ERROR com.intuit.karate - src/test/java/petstore/pet/create_pet.feature:5
+* def body_request = read('classpath:petstore/pet/data/body_request.json')
+>>>> js failed:
+01: read('classpath:petstore/pet/data/body_request.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: petstore/pet/data/body_request.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:53)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/petstore/pet/create_pet.feature:5
+23:20:28.531 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/petstore/pet/create_pet.feature
+23:21:45.705 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:21:45.860 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1663554105850
+23:21:45.880 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Criar Pet$
+23:21:46.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:21:46.554 [main] ERROR com.intuit.karate - src/test/java/petstore/pet/create_pet.feature:5
+* def body_request = read('classpath:src/test/java/petstore/pet/data/body_request.json')
+>>>> js failed:
+01: read('classpath:src/test/java/petstore/pet/data/body_request.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/petstore/pet/data/body_request.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:53)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/petstore/pet/create_pet.feature:5
+23:21:47.281 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/petstore/pet/create_pet.feature
+23:22:35.903 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:22:35.907 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1663554155906
+23:22:35.926 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Criar Pet$
+23:22:36.527 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:22:37.440 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:38.313 [main] DEBUG com.intuit.karate - response time in milliseconds: 871
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:39 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:38.315 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:38.325 [main] INFO  com.intuit.karate - [print] 11 
+23:22:38.349 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:38.353 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:38.979 [main] DEBUG com.intuit.karate - response time in milliseconds: 626
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:40 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:38.980 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:38.981 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:38.981 [main] INFO  com.intuit.karate - [print] 11 
+23:22:38.989 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:38.991 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:39.579 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:40 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:39.579 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:39.580 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:39.581 [main] INFO  com.intuit.karate - [print] 11 
+23:22:39.589 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:39.591 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:40.179 [main] DEBUG com.intuit.karate - response time in milliseconds: 588
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:41 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:40.180 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:40.180 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:40.181 [main] INFO  com.intuit.karate - [print] 11 
+23:22:40.188 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:40.190 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:40.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 583
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:41 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:40.774 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:40.775 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:40.776 [main] INFO  com.intuit.karate - [print] 11 
+23:22:40.784 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:40.785 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:41.369 [main] DEBUG com.intuit.karate - response time in milliseconds: 584
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:42 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:41.370 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:41.370 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:41.372 [main] INFO  com.intuit.karate - [print] 11 
+23:22:41.378 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:41.380 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:41.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 617
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:43 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:41.998 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:41.999 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:41.999 [main] INFO  com.intuit.karate - [print] 11 
+23:22:42.004 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:42.006 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:42.594 [main] DEBUG com.intuit.karate - response time in milliseconds: 588
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:43 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:42.595 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:42.595 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:42.596 [main] INFO  com.intuit.karate - [print] 11 
+23:22:42.602 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:42.603 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:43.224 [main] DEBUG com.intuit.karate - response time in milliseconds: 620
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:44 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:43.224 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:43.225 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:43.225 [main] INFO  com.intuit.karate - [print] 11 
+23:22:43.230 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:43.232 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:43.851 [main] DEBUG com.intuit.karate - response time in milliseconds: 619
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:44 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:43.852 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:43.862 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:43.863 [main] INFO  com.intuit.karate - [print] 11 
+23:22:43.882 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:43.883 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:44.517 [main] DEBUG com.intuit.karate - response time in milliseconds: 633
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:45 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:44.519 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:44.519 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:44.519 [main] INFO  com.intuit.karate - [print] 11 
+23:22:44.524 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:44.525 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:45.110 [main] DEBUG com.intuit.karate - response time in milliseconds: 583
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:46 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:45.110 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:45.111 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:45.111 [main] INFO  com.intuit.karate - [print] 11 
+23:22:45.117 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:45.119 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:45.707 [main] DEBUG com.intuit.karate - response time in milliseconds: 588
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:46 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:45.708 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:45.708 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:45.709 [main] INFO  com.intuit.karate - [print] 11 
+23:22:45.714 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:45.715 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:46.302 [main] DEBUG com.intuit.karate - response time in milliseconds: 586
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:22:47 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:22:46.302 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:22:46.303 [main] WARN  com.intuit.karate - over-writing existing variable 'id' with new value: body_request.id
+23:22:46.303 [main] INFO  com.intuit.karate - [print] 11 
+23:22:46.309 [main] WARN  com.intuit.karate - over-writing existing variable 'body_request' with new value: read('classpath:petstore/pet/data/json/body_request.json')
+23:22:46.311 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:22:59.031 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:22:59.054 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Criar Pet$
+23:22:59.695 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:23:00.108 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore3.swagger.io/api/v3/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 200
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+
+23:23:00.879 [main] DEBUG com.intuit.karate - response time in milliseconds: 770
+1 < 200
+1 < Date: Mon, 19 Sep 2022 02:23:01 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 195
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"photoUrls":["https:\/\/skycms.s3.amazonaws.com\/images\/5495100\/cachorro-card-1.png"],"name":"Toby","id":11,"category":{"name":"Dogs","id":1},"tags":[{"name":"litlle","id":1}],"status":"available"}
+23:23:00.881 [main] INFO  com.intuit.karate - [print] {
+  "photoUrls": [
+    "https://skycms.s3.amazonaws.com/images/5495100/cachorro-card-1.png"
+  ],
+  "name": "Toby",
+  "id": 11,
+  "category": {
+    "name": "Dogs",
+    "id": 1
+  },
+  "tags": [
+    {
+      "name": "litlle",
+      "id": 1
+    }
+  ],
+  "status": "available"
+}
+ 
+23:23:00.888 [main] INFO  com.intuit.karate - [print] 11 
+23:23:01.235 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/petstore/pet/create_pet.feature
