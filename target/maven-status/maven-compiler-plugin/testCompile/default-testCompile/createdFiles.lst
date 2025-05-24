@@ -1,2 +1,4 @@
-examples\ExamplesTest.class
-examples\users\UsersRunner.class
+petstore\user\PetsRunner.class
+petstore\store\PetsRunner.class
+petstore\TestRunner.class
+petstore\pet\PetsRunner.class

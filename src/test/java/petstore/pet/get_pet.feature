@@ -6,7 +6,7 @@ Scenario: Buscar Pet pelo Id
 #* def sessionId = util.uuid()
 * def getId = call read('create_pet.feature')
 Given url 'https://petstore3.swagger.io/api/v3'
-* print getId.id
+* print getId.response.id
 And path '/pet/getId.id'
 When method GET
 Then status 200

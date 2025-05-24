@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: petstore.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.765 s <<< FAILURE! - in petstore.TestRunner
+testAll[3][1]  Time elapsed: 1.193 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 400, expected: 200, response time in milliseconds: 464, url: https://petstore3.swagger.io/api/v3/pet/getId.id, response: 
+{"code":400,"message":"Input error: couldn't convert `getId.id` to type `class java.lang.Long`"}
+classpath:petstore/pet/get_pet.feature:12
+classpath:petstore/pet/delete_pet.feature:5
+
+testAll[4][1]  Time elapsed: 1.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 400, expected: 200, response time in milliseconds: 460, url: https://petstore3.swagger.io/api/v3/pet/getId.id, response: 
+{"code":400,"message":"Input error: couldn't convert `getId.id` to type `class java.lang.Long`"}
+classpath:petstore/pet/get_pet.feature:12
+
+testAll[5][1]  Time elapsed: 0.056 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+>>>> js failed:
+01: read('./data/body_request.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\abner.c.ferreira\OneDrive - Accenture\TEST AUTOMATION\karate\karate-api\target\test-classes\petstore\pet\.\data\body_request.json (O sistema não pode encontrar o arquivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:53)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+classpath:petstore/pet/update_pet.feature:5
+

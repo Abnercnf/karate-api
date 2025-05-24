@@ -23,14 +23,14 @@
     </a>
     <div class="nav-count">
       <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-fail" class="bg-danger">3</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Tags</div>
   </div>         
   <div id="nav-date">
-    <div>2022-09-18 11:23:01 PM</div>
+    <div>2025-03-21 02:16:34 PM</div>
   </div>        
 </div>
 
@@ -43,15 +43,57 @@
           <thead>
             <tr>
               <th class="feature-cell">Feature</th>
-              <th classapend="passed">createPet</th>
+              <th classapend="failed">createPet</th>
+              <th classapend="failed">deletePet</th>
+              <th classapend="passed">ignore</th>
+              <th classapend="failed">petById</th>
             </tr>
           </thead>
           <tbody>
+            <tr class="failed">
+              <td class="feature-cell">
+                <a href="petstore.pet.delete_pet.html">petstore/pet/delete_pet.feature</a>
+              </td>
+              <td classapend="passed"></td>
+              <td classapend="failed">X</td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+            </tr>
             <tr class="passed">
               <td class="feature-cell">
-                <a href="src.test.java.petstore.pet.create_pet.html">src/test/java/petstore/pet/create_pet.feature</a>
+                <a href="petstore.pet.common.html">petstore/pet/common.feature</a>
+              </td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+              <td classapend="passed">X</td>
+              <td classapend="passed"></td>
+            </tr>
+            <tr class="failed">
+              <td class="feature-cell">
+                <a href="petstore.pet.get_pet.html">petstore/pet/get_pet.feature</a>
+              </td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+              <td classapend="failed">X</td>
+            </tr>
+            <tr class="passed">
+              <td class="feature-cell">
+                <a href="petstore.pet.create_pet.html">petstore/pet/create_pet.feature</a>
               </td>
               <td classapend="passed">X</td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+            </tr>
+            <tr class="failed">
+              <td class="feature-cell">
+                <a href="petstore.pet.update_pet.html">petstore/pet/update_pet.feature</a>
+              </td>
+              <td classapend="failed">X</td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
+              <td classapend="passed"></td>
             </tr>            
           </tbody>
         </table>
